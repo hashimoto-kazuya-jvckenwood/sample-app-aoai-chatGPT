@@ -41,10 +41,10 @@ load_dotenv()
 UI_TITLE = os.environ.get("UI_TITLE") or "Contoso"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
-UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start chatting for WG"
+UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "業務効率化AI"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
-    or "This chatbot is configured to answer your questions. and test for WG "
+    or "業務効率化のための生成AIの活用を提案します。質問を入力して下さい。"
 )
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
